@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
-
+import ButtonCom from './Components/Class components/button';
+import FunButton from './Components/functional components/button/button';
+import FunForm from './Components/functional components/form/form';
+import FunImage from './Components/functional components/image/image';
+import FunList from './Components/functional components/list/list';
+import FunTable from './Components/functional components/table/table';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Functional Components</h1>
+      <FunButton></FunButton>
+      <FunForm></FunForm>
+      <FunImage></FunImage>
+      <FunTable></FunTable>
+      <FunList></FunList>
+      <ButtonCom></ButtonCom>
     </div>
   );
 }
