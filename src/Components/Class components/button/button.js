@@ -1,4 +1,4 @@
-
+import React,{Component} from 'react';
 
 
 class ButtonCom extends Component{
