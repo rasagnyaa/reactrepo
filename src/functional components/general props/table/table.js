@@ -4,7 +4,7 @@ import { TableRow } from "./tablerow"
 
 const TableComponent=()=>{
     return(
-<table style={{width:"100%"}}>
+<table>
 <tbody>
 <tr>
 <th>company</th>

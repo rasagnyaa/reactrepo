@@ -27,7 +27,7 @@ id:1
 }
 ]
 return(
-<div>
+<div className="div1">
     <ol>
 {
 ListItem.map((eachObject)=>{
