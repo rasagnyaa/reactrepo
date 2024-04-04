@@ -1,4 +1,5 @@
 import { Component } from "react";
+import Counter from "./counter";
 
 
 
@@ -24,7 +25,10 @@ return(
 {
     this.state.isSubscribe
     ?
+    <>
     <h3 className="p1">wellcome user</h3>
+    <Counter></Counter>
+    </>
     :
     <h3 className="p2">please subscribe to see the content</h3>
 }
