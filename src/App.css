@@ -1,4 +1,4 @@
-.button1{
+/* .button1{
   width: 200px;
   height: 50px;
   margin-left: 500px;
@@ -45,4 +45,41 @@ color: crimson;
 .heading2{
   margin-left: 560px;
   color: indigo;
-}
+} */
+.productsList{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 60px;
+  gap: 20px;
+  font-size: smaller;
+  color: white;
+  }
+  .cards{
+      width: 22.33%;
+      border: 1px solid rgb(114, 64, 133);
+      padding: 20px;
+      border-radius: 2rem;
+      background-color: rgb(114, 64, 133);
+      margin-left: 50px;
+      
+  }
+  /* .cards:hover{
+      scale: 1.1;
+  } */
+  .thumbnail{
+    margin-left: 35px;
+    border-radius: 3rem;
+  }
+  .price{
+    color: red;
+    margin-left: 100px;
+    font-size: larger;
+  }
+  .heading{
+
+    margin-left: 580px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: chartreuse;
+  }
