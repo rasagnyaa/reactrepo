@@ -83,3 +83,22 @@ color: crimson;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: chartreuse;
   }
+  .title{
+    margin-left: 90px;
+    font-size: 20px;
+    color: gold;
+  }
+  .description {
+    margin-left: 20px;
+    font-size: smaller;
+  }
+  .dltbtn{
+
+margin-left: 80px;
+width: 100px;
+height: 30px;
+background-color: green;
+border: 1px solid green;
+color: white;
+border-radius: 1rem;
+  }
