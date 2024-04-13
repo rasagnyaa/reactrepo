@@ -67,7 +67,7 @@ color: crimson;
   /* .cards:hover{
       scale: 1.1;
   } */
-  .thumbnail{
+  /* .thumbnail{
     margin-left: 35px;
     border-radius: 3rem;
   }
@@ -113,4 +113,16 @@ background-color: azure;
       width: 100px;
     }
 
-  
+   */
+   .div1{
+    display: flex;
+    flex-wrap: wrap;
+
+   }
+   .card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 60px;
+    border: 1px solid black;
+   }
