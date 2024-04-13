@@ -102,3 +102,15 @@ border: 1px solid green;
 color: white;
 border-radius: 1rem;
   }
+  .apple{
+width: 200px;
+height: 100px;
+color: red;
+background-color: azure;
+  }
+    .imgy{
+      height: 100px;
+      width: 100px;
+    }
+
+  
