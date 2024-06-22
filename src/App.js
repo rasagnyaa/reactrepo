@@ -1,34 +1,19 @@
-// import { First } from 'react-bootstrap/esm/PageItem';
 import './App.css';
-// import ButtonCom from './Components/Class components/button/button';
-// import FormCom from './Components/Class components/form/form';
-// import ImageCom from './Components/Class components/image/image';
-// import ListCom from './Components/Class components/list/list';
-// import TableCom from './Components/Class components/table/table';
-// import FunButton from './Components/functional components/button/button';
-// import FunForm from './Components/functional components/form/form';
-// import FunImage from './Components/functional components/image/image';
-// import FunList from './Components/functional components/list/list';
-// import FunTable from './Components/functional components/table/table';
-import FirstPage from './bootstrap/firstpage';
-// import CustomCard from './bootstrap/reactbootstrap/card';
+import ButtonComponent from './Components/functionalComponent/button/button';
+import Form from './Components/functionalComponent/form/form';
+import ImageComponent from './Components/functionalComponent/image/image';
+import { ListParentOrderd, ListParentUnorderd } from './Components/functionalComponent/list/listparent';
+import Table from './Components/functionalComponent/table/table';
 
 function App() {
   return (
     <div className="App">
-      {/* <h2>Class based Components</h2>
-      <h1>Functional Components</h1>
-      <FunButton></FunButton>
-      <FunForm></FunForm>
-      <FunImage></FunImage>
-      <FunTable></FunTable>
-      <FunList></FunList>
-      <ButtonCom></ButtonCom>
-      <FormCom></FormCom>
-      <ImageCom></ImageCom>
-      <TableCom></TableCom>
-      <ListCom></ListCom> */}
-     <FirstPage></FirstPage>
+     <Form></Form>
+    <Table></Table>
+    <ListParentOrderd></ListParentOrderd>
+    <ListParentUnorderd></ListParentUnorderd>
+    <ButtonComponent></ButtonComponent>
+    <ImageComponent></ImageComponent>
     </div>
   );
 }
