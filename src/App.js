@@ -1,5 +1,6 @@
 import './App.css';
-import Card from './Components/functionalComponent/card/card';
+// import Card from './Components/functionalComponent/card/card';
+import CricBuzz from './Components/functionalComponent/iplteams/iplteams';
 
 
 
@@ -19,7 +20,8 @@ function App() {
     <ListParentUnorderd></ListParentUnorderd>
     <ButtonComponent></ButtonComponent> */}
     
-   <Card/>
+   {/* <Card/> */}
+   <CricBuzz/>
   </div>
   );
 }
