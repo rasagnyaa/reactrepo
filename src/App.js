@@ -1,5 +1,9 @@
 import './App.css';
-import ListMap from './Components/functionalComponent/12-task/listmap/listmap';
+import Card from './Components/functionalComponent/card/card';
+
+
+
+// import ListMap from './Components/functionalComponent/12-task/listmap/listmap';
 // import ButtonComponent from './Components/functionalComponent/button/button';
 // import Form from './Components/functionalComponent/form/form';
 // import ImageComponent from './Components/functionalComponent/image/image';
@@ -13,10 +17,10 @@ function App() {
     <Table></Table>
     <ListParentOrderd></ListParentOrderd>
     <ListParentUnorderd></ListParentUnorderd>
-    <ButtonComponent></ButtonComponent>
-    <ImageComponent></ImageComponent> */}
-    <ListMap></ListMap>
-    </div>
+    <ButtonComponent></ButtonComponent> */}
+    
+   <Card/>
+  </div>
   );
 }
 
