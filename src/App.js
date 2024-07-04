@@ -1,5 +1,6 @@
 import './App.css';
-import TodosClassComponent from './Components/classComponents/todos/todos';
+import ListOfEmployees from './Components/classComponents/employestask-june20/listofemps';
+//import TodosClassComponent from './Components/classComponents/todos/todos';
 //import ButtonComponentClass from './Components/classComponents/buttonclass/button';
 
 
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
 {/* <PropExample name="rasagnya" city="hyd" gender="female"/> */}
 {/* <ButtonComponentClass/>      */}
-<TodosClassComponent/>
+{/* <TodosClassComponent/> */}
+<ListOfEmployees/>
   </div>
   );
 }
