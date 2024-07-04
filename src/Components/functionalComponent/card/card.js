@@ -1,12 +1,19 @@
-import ImageComponent from "../image/image"
-import ButtonComponent from "../button/button"
-import ListMap from "../listmap/list"
+// import ImageComponent from "../image/image"
+// import ButtonComponent from "../button/button"
+
+// import CardForIplTeams from "./cardIplteams"
+
+// import ListMap from "../listmap/list"
 const Card=()=>{
     return(
         <>
-       <ImageComponent/> 
+       {/* <ImageComponent/> 
        <ButtonComponent/>
-       <ListMap/>
+       <ListMap/> */}
+       {/* <CardForIplTeams/> */}
+
+
+       
        </>
     )
 }

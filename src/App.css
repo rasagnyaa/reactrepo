@@ -1,6 +1,39 @@
-table,td,th,tr{
+/* table,td,th,tr{
   border: 1px solid black;
  width: 100px;
   height: 50px;
   border-collapse: collapse;
-}
+} */
+ .div1{
+  height: 200px;
+  width: 200px;
+  border: 1px solid  darkblue;
+  border-radius: 100px;
+  margin-left: 700px;
+  background-color: darkblue;
+ }
+ .div2{
+  height: 200px;
+  width: 200px;
+  border: 1px solid cadetblue;
+  /* border-radius: 100px; */
+  margin-top: 20px;
+  margin-left: 700px;
+  background-color: cadetblue;
+
+ }
+ .div3{
+  height: 200px;
+  width: 600px;
+  border: 1px solid crimson;
+  margin-top: 25px;
+  margin-left: 500px;
+  background-color: crimson;
+ }
+ .div4{
+  /* height: 200px; */
+  width: 700px;
+  border: 1px solid rebeccapurple;
+  margin-top: 30px;
+  margin-left: 500px;
+ }

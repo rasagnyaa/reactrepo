@@ -53,9 +53,7 @@ return (
           </div>
         );
       })}
-      {/* {fruitList.map((eachFruit) => {
-        return <h4>{eachFruit}</h4>;
-      })} */}
+     
     </div>
   );
 }
