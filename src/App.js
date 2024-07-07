@@ -1,18 +1,14 @@
 import './App.css';
-//import "./Components/classComponents/recipestask-june21/recipe.css"
-import BasicExample from './Components/classComponents/card/card';
-//import ProductListing from './Components/classComponents/fetch/fetch';
-//import MyTask from './Components/classComponents/recipestask-june21/recipe';
-
-//import MyTask from './Components/classComponents/recipestask-june21/recipe';
+import TodoComponent from './Components/functionalComponent/todo/todo';
+//import UseStateExample from './Components/functionalComponent/Hooks/usestate/usestateex';
 
 
 
 function App() {
   return (
     <div className="App">
-{/* <MyTask/> */}
- <BasicExample/> 
+{/* <UseStateExample/> */}
+<TodoComponent/>
   </div>
   );
 }
