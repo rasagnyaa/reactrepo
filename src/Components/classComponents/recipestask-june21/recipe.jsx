@@ -66,6 +66,19 @@ class MyTask extends Component {
                         <li key={index}>{instructions}</li>
                       ))}
                     </ol>
+   {/* ///////////////////////////////////// */}
+   
+
+
+
+
+
+
+
+
+
+
+
                   </div>
                 </>
               );
