@@ -1,9 +1,9 @@
-table,td,th,tr{
+/* table,td,th,tr{
   border: 1px solid black;
  width: 500px;
   height: 50px;
   border-collapse: collapse;
-}
+} */
  /* .div1{
   height: 200px;
   width: 200px;
@@ -37,3 +37,4 @@ table,td,th,tr{
   margin-top: 30px;
   margin-left: 500px;
  } */ 
+ 

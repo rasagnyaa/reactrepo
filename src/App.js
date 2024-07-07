@@ -1,16 +1,18 @@
 import './App.css';
-import ListOfEmployees from './Components/classComponents/employestask-june20/listofemps';
-//import TodosClassComponent from './Components/classComponents/todos/todos';
-//import ButtonComponentClass from './Components/classComponents/buttonclass/button';
+//import "./Components/classComponents/recipestask-june21/recipe.css"
+//import BasicExample from './Components/classComponents/card/card';
+//import ProductListing from './Components/classComponents/fetch/fetch';
+import MyTask from './Components/classComponents/recipestask-june21/recipe';
+
+//import MyTask from './Components/classComponents/recipestask-june21/recipe';
+
 
 
 function App() {
   return (
     <div className="App">
-{/* <PropExample name="rasagnya" city="hyd" gender="female"/> */}
-{/* <ButtonComponentClass/>      */}
-{/* <TodosClassComponent/> */}
-<ListOfEmployees/>
+<MyTask/>
+{/* <BasicExample/> */}
   </div>
   );
 }
