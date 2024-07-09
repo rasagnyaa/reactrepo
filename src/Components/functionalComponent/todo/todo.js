@@ -22,17 +22,24 @@ const TodoComponent = () => {
     const dummyIncludes = todos.find(
       (eachTodo) => eachTodo.id === dummyTodo.id
     );
-
+//////////
     const UpdatedTodos = [...todos, dummyTodo];
     if (!dummyIncludes) {
       setTodos(UpdatedTodos);
     }
   };
+ //////////
   const [todos, setTodos] = useState(initialState);
-  const removeRoutineHandler=(each)=>{
-const id=each.id
-const filterdData=todos.filter((eachTodo)=>eachTodo.id!==id)
-setTodos(filterdData)
+  const removeRoutineHandler = (each) => {
+    const id = each.id;
+    const filterdData = todos.filter((eachTodo) => eachTodo.id !== id);
+    setTodos(filterdData);
+  };
+  //////////
+  const removeallHandler=(each)=>{
+    const id = each.id;
+    const filterdData = todos.filter((eachTodo) => eachTodo.id === id);
+    setTodos(filterdData);
   }
   return (
     <>
@@ -40,7 +47,9 @@ setTodos(filterdData)
         return (
           <>
             <h3>{each.period}</h3>
-            <button onClick={()=>removeRoutineHandler(each)}>removeRoutine</button>
+            <button onClick={() => removeRoutineHandler(each)}>
+              removeRoutine
+            </button>
             {each.routine.map((eachRoutine) => {
               return (
                 <>
@@ -52,6 +61,7 @@ setTodos(filterdData)
         );
       })}
       <button onClick={addTodoHandler}>Add to do</button>
+      <button onClick={removeallHandler}>removeall</button>
     </>
   );
 };
