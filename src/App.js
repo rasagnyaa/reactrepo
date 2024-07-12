@@ -1,5 +1,6 @@
 import './App.css';
-import ControlledForm from './Components/functionalComponent/form/controlledform';
+import RegisterForm from './Components/functionalComponent/form/registercontrolled';
+//import ControlledForm from './Components/functionalComponent/form/controlledform';
 
 
 
@@ -8,7 +9,7 @@ import ControlledForm from './Components/functionalComponent/form/controlledform
 function App() {
   return (
     <div className="App">
-<ControlledForm/>
+<RegisterForm/>
   </div>
   );
 }
