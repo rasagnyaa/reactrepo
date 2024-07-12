@@ -1,15 +1,10 @@
 import './App.css';
-import RegisterForm2 from './Components/functionalComponent/form/singlestateform';
-
-
-
-
-
+import Stack from './navigations/stack';
 
 function App() {
   return (
     <div className="App">
-<RegisterForm2/>
+  <Stack/>
   </div>
   );
 }
