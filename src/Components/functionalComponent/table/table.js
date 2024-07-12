@@ -1,11 +1,13 @@
 const Table=()=>{
     return (
         <>
-        <table>
-         
+        <table >
+            <tr>
             <th>id</th>
             <th>name</th>
             <th>batch</th>
+            </tr>
+            
          
             <tr>
                 <td>01</td>

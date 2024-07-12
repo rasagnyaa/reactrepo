@@ -47,3 +47,55 @@
  h1{
   margin-left: 700px;
  } */
+/* .c1{
+border: 1px solid rgb(193, 186, 186);
+height: 600px;
+width: 550px;
+margin-top: 20px;
+margin-left: 500px;
+box-shadow: 10px 10px 10px 10px lightgray;
+overflow-y: scroll;
+
+  }
+#h11{
+  color: purple;
+}
+#u11{
+color:rgb(5, 109, 15);
+font-family: cursive;
+
+}
+.inp2{
+  margin-left: 30px;
+
+}
+.inp1{
+  margin-left: 10px;
+}
+.inp1,.inp2{
+  margin-top: 50px;
+}
+#btn1{
+  margin-left: 10px;
+  border: 1px solid blue;
+  background-color: blue;
+  color: white;
+  margin-top: 50px;
+  position: absolute;
+}
+#btn2{
+  margin-left: 30px;
+  background-color: red;
+  border: 1px solid red;
+  color: white;
+}
+#heading{
+  margin-left: 200px;
+  color: chocolate;
+} */
+ table,th,tr,td,thead,tbody{
+  border: 1px solid black;
+  width: 200px;
+  height: 70px;
+  border-collapse:collapse ;
+ }

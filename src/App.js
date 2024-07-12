@@ -1,12 +1,14 @@
 import './App.css';
-import TailwindForm from './Components/functionalComponent/form/uncontrolledform';
+import ControlledForm from './Components/functionalComponent/form/controlledform';
+
+
 
 
 
 function App() {
   return (
     <div className="App">
-<TailwindForm/>
+<ControlledForm/>
   </div>
   );
 }
