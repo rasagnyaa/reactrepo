@@ -1,8 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-
+import { NavLink } from 'react-router-dom'
+import "./navbar.css"
 function Navbar() {
-    const linkStyle={
+    const NavLinkStyle={
         textDecoration:"none",
        
     }
@@ -15,20 +15,23 @@ function Navbar() {
   <div className="container-fluid">
     <ul className="navbar-nav">
         
+      {/* <li className="nav-item" style={liststyle}>
+      <NavLink to={"/"} style={NavLinkStyle}>Home</NavLink>
+      </li> */}
       <li className="nav-item" style={liststyle}>
-      <Link to={"/"} style={linkStyle}>Home</Link>
+      <NavLink to={"/"} style={NavLinkStyle}>Home</NavLink>
       </li>
 
       <li className="nav-item"style={liststyle}>
-        <Link to={"/about"}style={linkStyle}>About</Link>
+        <NavLink to={"/about"}style={NavLinkStyle}>About</NavLink>
       </li>
 
       <li className="nav-item"style={liststyle}>
-      <Link to={"/setting"}style={linkStyle}>Settings</Link>
+      <NavLink to={"/setting"}style={NavLinkStyle}>Settings</NavLink>
       </li>
 
       <li className="nav-item"style={liststyle}>
-      <Link to={"/contact"}style={linkStyle}>Contacts</Link>
+      <NavLink to={"/contact"}style={NavLinkStyle}>Contacts</NavLink>
       </li>
     </ul>
   </div>
