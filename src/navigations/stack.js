@@ -8,18 +8,21 @@ import InvalidScreen from "../screens/invalidscreen";
 import Productdetails from "../screens/productdetails";
 import DoctorScreen from "../screens/doctorscreen";
 import EngineerScreen from "../screens/engineerscreen";
+import UseeffectEx1 from "../Components/functionalComponent/useeffect/useeffect";
 const LazySetting=React.lazy(()=>import("../screens/settingscreens"))
 function Stack() {
   return (
     <BrowserRouter>
       <Routes>
         {/* static routing */}
-        <Route path="/" element={<HomeScreen />} />
+        <Route path="/" element={<HomeScreen/>} />
+        <Route path="useeffect" element={<UseeffectEx1/>} />
+        <Route/>
         <Route path="/about" element={<AboutScreen />} />
-        <Route path="/contact" element={<ContactScreen/>}>
+        <Route path="/contact" element={<ContactScreen/>}/>
           <Route path="doctors" element={<DoctorScreen/>} />
           <Route path="engineers" element={<EngineerScreen/>}/>
-        </Route>
+        <Route/>
         <Route path="/setting" element={<Suspense fallback={<div>loading</div>}><LazySetting/></Suspense>}/>
 
         <Route
