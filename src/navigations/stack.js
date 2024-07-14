@@ -62,3 +62,8 @@ return (
 
 export default Stack;
 //app.js tp stack to(code created in stack)=>home and contact--->(code flow)
+//task-->repeat the class ,
+//differnce bewteen local state managment and global state managment 
+//why we need to avoid the prop drilling,when to pass as a props
+//give user input in the settin screen change globally using context 
+//difference between the context api and prop drilling (advantage of context api)
