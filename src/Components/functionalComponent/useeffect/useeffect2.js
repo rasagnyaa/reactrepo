@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+//import loggingComponent from '../../../hoc/logging,js'
 
 function Useeffect2() {
 const[count1,setCount1]=useState(0)

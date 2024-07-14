@@ -1,4 +1,5 @@
 import { useReducer } from "react"
+import loggingComponent from "../../../hoc/logging,js"
 
 const reducer=(state,action)=>{
 switch(action.type){
@@ -49,7 +50,7 @@ newPeriod:"",
 newRoutine:""
 }
 
-const User2=()=>{
+const User2=(props)=>{
     const[state,dispatch]=useReducer(reducer,initialState)
     const ChangePeriod=(e)=>{
         dispatch({
@@ -127,4 +128,4 @@ const User2=()=>{
         </div>
     )
 }
-export default User2
+export default loggingComponent(User2)
