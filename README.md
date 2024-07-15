@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +67,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
+
+useMemo():useMemo is a react functional component hook,it will memorizes the value returned by the function (by catching the  that was returned)
+
+ex:counter1,counter2
+const isEven=()=>{
+    return counter1%2===0?"even":"odd"
+}
+syntax of usememo()
+it will accept 2 arguments
+1.callback function(value returned function that needs to be memorised)
+2.array(dependency)
+useMemo()
+//////////////////////////////////////////////
+
+2.useCallback:it will memorizes the function which ultimately prevents re-renders of the child component
+it will accept 2 arguments
+1.callback function(function to be memorized)
+2.array(dependency)
