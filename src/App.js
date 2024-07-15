@@ -1,5 +1,6 @@
 import './App.css';
 import DataFetch from './Components/data-fetch-component';
+import UserList from './Components/user-list';
 //import CounterExample from './Components/counter-example';
 //import UsecallbackEx from './Components/functionalComponent/usecallback/usecallbackex';
 //import UsememoEx from './Components/functionalComponent/usememo/usememoex';
@@ -17,6 +18,7 @@ function App() {
 {/* <UsememoEx/> */}
 {/* <UsecallbackEx/> */}
 {/* <CounterExample/> */}
+<UserList/>
 <DataFetch/>
   </div>
   );
