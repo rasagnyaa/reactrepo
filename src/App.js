@@ -1,5 +1,6 @@
 import './App.css';
-import UsecallbackEx from './Components/functionalComponent/usecallback/usecallbackex';
+import CounterExample from './Components/counter-example';
+//import UsecallbackEx from './Components/functionalComponent/usecallback/usecallbackex';
 //import UsememoEx from './Components/functionalComponent/usememo/usememoex';
 //import Stack from './navigations/stack';
 //import WeatherApi from './Components/functionalComponent/weatherapi/weatherapi';
@@ -13,7 +14,8 @@ function App() {
 {/* <WeatherApi/> */}
 {/* <Stack/> */}
 {/* <UsememoEx/> */}
-<UsecallbackEx/>
+{/* <UsecallbackEx/> */}
+<CounterExample/>
   </div>
   );
 }
