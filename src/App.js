@@ -1,5 +1,6 @@
 import './App.css';
-import Example1 from './Components/functionalComponent/movie/movie-3';
+import UsememoPractise from './Components/functionalComponent/usememo/memo-practise';
+//import Example1 from './Components/functionalComponent/movie/movie-3';
 //import DataFetch from './Components/data-fetch-component';
 //import UserList from './Components/user-list';
 //import CounterExample from './Components/counter-example';
@@ -14,14 +15,7 @@ function App() {
   return (
     <div className="App">
  {/* <Stack/>  */}
-{/* <WeatherApi/> */}
-{/* <Stack/> */}
-{/* <UsememoEx/> */}
-{/* <UsecallbackEx/> */}
-{/* <CounterExample/> */}
-{/* <UserList/>
-<DataFetch/> */}
-<Example1/>
+<UsememoPractise/>
   </div>
   );
 }

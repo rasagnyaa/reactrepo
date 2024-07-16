@@ -17,6 +17,7 @@ function UsememoEx() {
         for(let i=0;i<1000;i++){}
         return counter1 % 2===0?"even":"odd"
      },[counter1])
+ 
   return (
     <div>
    <h3>even checker</h3>
