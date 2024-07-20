@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import CardforUsers from "./cardforuses";
+import CustomSpinnner2 from "../spinner/spinner";
 
 const UserDetails=()=>{
 const[data,setData]=useState([])
@@ -28,7 +29,7 @@ return(
    <center>
 
 <h1 style={{fontFamily:"sans-serif"}}>Alumnus of Law College</h1>
-{loader?(<p1>loading</p1>):(data.map((eachUser )=>{
+{loader?(<CustomSpinnner2/>):(data.map((eachUser )=>{
 return (
     <>
 <CardforUsers key={eachUser.id}  details={eachUser}/>
