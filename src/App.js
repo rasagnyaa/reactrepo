@@ -1,21 +1,16 @@
 import './App.css';
-import UsememoPractise from './Components/functionalComponent/usememo/memo-practise';
-//import Example1 from './Components/functionalComponent/movie/movie-3';
-//import DataFetch from './Components/data-fetch-component';
-//import UserList from './Components/user-list';
-//import CounterExample from './Components/counter-example';
-//import UsecallbackEx from './Components/functionalComponent/usecallback/usecallbackex';
-//import UsememoEx from './Components/functionalComponent/usememo/usememoex';
-//import Stack from './navigations/stack';
-//import WeatherApi from './Components/functionalComponent/weatherapi/weatherapi';
-//import Card from './Components/functionalComponent/card/card';
-//import Stack from './navigations/stack';
+import CatDetails from './Components/functionalComponent/catDetails-api/cat';
+//import CountryListing2 from './Components/functionalComponent/countrytask/country-input';
+//import Dropdown from './Components/functionalComponent/drop-down/drop-down';
+
 
 function App() {
   return (
     <div className="App">
  {/* <Stack/>  */}
-<UsememoPractise/>
+{/* <CountryListing2/> */}
+{/* <Dropdown/> */}
+<CatDetails/>
   </div>
   );
 }

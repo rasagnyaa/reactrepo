@@ -7,7 +7,7 @@ const[counter,setCounter]=useState(0)
 const[dark,setDark]=useState(false)
 
 const doubleNumber=useMemo(()=>{
-    //console.log(doubleNumber,"doublenumber")
+    console.log(doubleNumber,"doublenumber")
     return slowFunction(counter)
  
 },[counter])
