@@ -93,9 +93,12 @@ font-family: cursive;
   margin-left: 200px;
   color: chocolate;
 } */
- table,th,tr,td,thead,tbody{
+ table,th,tr,td,tbody,thead{
   border: 1px solid black;
-  width: 200px;
+  width: 500px;
   height: 70px;
   border-collapse:collapse ;
+  text-align: center;
+color: red;
  }
+ 

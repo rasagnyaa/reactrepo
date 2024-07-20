@@ -1,16 +1,13 @@
 import './App.css';
-import CatDetails from './Components/functionalComponent/catDetails-api/cat';
-//import CountryListing2 from './Components/functionalComponent/countrytask/country-input';
-//import Dropdown from './Components/functionalComponent/drop-down/drop-down';
+import CatDetailsTable from './Components/functionalComponent/catdetails-in-table/catdetails-in-table';
+
 
 
 function App() {
   return (
     <div className="App">
  {/* <Stack/>  */}
-{/* <CountryListing2/> */}
-{/* <Dropdown/> */}
-<CatDetails/>
+<CatDetailsTable/>
   </div>
   );
 }
