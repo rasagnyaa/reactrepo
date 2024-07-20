@@ -1,5 +1,6 @@
 import './App.css';
-import CatDetailsTable from './Components/functionalComponent/catdetails-in-table/catdetails-in-table';
+import UserDetails from './Components/functionalComponent/user-deatails-api/user-deatils';
+
 
 
 
@@ -7,7 +8,7 @@ function App() {
   return (
     <div className="App">
  {/* <Stack/>  */}
-<CatDetailsTable/>
+<UserDetails/>
   </div>
   );
 }
