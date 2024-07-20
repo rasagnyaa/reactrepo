@@ -31,7 +31,7 @@ function DogFacts() {
 
   return (
     <center style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', height: '100vh', justifyContent: 'center'} }>
-      <h1>dog facts</h1>
+      <h1 style={{color:"orange"}}>Dog Facts</h1>
       {loader ? (
         <CustomComment style={{marginTop:"100px"}}/>
         //<p style={{marginTop:"100px"}}>loading a dog fact...........</p>
