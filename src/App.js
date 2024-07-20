@@ -1,5 +1,6 @@
 import './App.css';
-import UserDetails from './Components/functionalComponent/user-deatails-api/user-deatils';
+import DogFacts from './Components/functionalComponent/dogfacts-api/dogfacts';
+
 
 
 
@@ -8,7 +9,7 @@ function App() {
   return (
     <div className="App">
  {/* <Stack/>  */}
-<UserDetails/>
+<DogFacts/>
   </div>
   );
 }
