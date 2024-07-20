@@ -29,7 +29,7 @@ const CatDetails = () => {
   };
 
   return (
-    <>
+    <center>
       <h1>Cat Details</h1>
       {
         loader ? (
@@ -40,7 +40,7 @@ const CatDetails = () => {
           ))
         )
       }
-    </>
+    </center>
   );
 };
 
