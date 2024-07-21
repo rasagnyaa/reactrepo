@@ -1,5 +1,5 @@
 import './App.css';
-import UserDetails from './Components/functionalComponent/user-deatails-api/user-deatils';
+import UserDetails from './Components/functionalComponent/userdetails-api/user-details';
 
 
 
