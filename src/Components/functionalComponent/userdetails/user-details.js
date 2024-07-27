@@ -6,6 +6,7 @@ import CustomSpinnner2 from "../spinner/spinner";
 const UserDetails = () => {
   const [data, setData] = useState([]);
   const [loader, setLoader] = useState(true);
+  const [search, setSearch] = useState("");
 
   useEffect(() => {
     fetchData();
@@ -25,19 +26,28 @@ const UserDetails = () => {
       setLoader(false);
     }
   };
+  const searchHandler = (event) => {
+    setSearch(event.target.value);
+  };
+  const filteredData = data.filter((eachUser) =>
+    eachUser.name.toLowerCase().includes(search.toLowerCase())
+  );
 
   return (
     <center>
+      <input
+        type="text"
+        placeholder="search...."
+        value={search}
+        onChange={searchHandler}
+      />
+
       <h1 style={{ fontFamily: "sans-serif" }}>Alumnus of Law College</h1>
       {loader ? (
-        <CustomSpinnner2 />
+        <CustomSpinnner2/>
       ) : (
-        data.map((eachUser) => {
-          return (
-            <>
-              <CardforUsers key={eachUser.id} details={eachUser} />
-            </>
-          );
+        filteredData.map((eachUser) => {
+          return <CardforUsers key={eachUser.id} details={eachUser} />;
         })
       )}
     </center>

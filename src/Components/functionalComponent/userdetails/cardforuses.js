@@ -11,6 +11,7 @@ const CardforUsers = ({ details }) => {
     backgroundColor: "gray",
   };
   return (
+
     <>
       <div style={cardStyle}>
         <h3>Username:{details.username}</h3>
